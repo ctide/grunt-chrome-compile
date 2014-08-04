@@ -34,7 +34,7 @@
     "grunt-contrib-jshint": "~0.6.4",
     "grunt-contrib-copy": "~0.5.0",
     "grunt-contrib-compress": "~0.5.0",
-    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-clean": "~0.5.0",
     "grunt-contrib-concat": "~0.3.0"
   },
   "peerDependencies": {
@@ -42,7 +42,7 @@
     "grunt-contrib-nodeunit": "~0.1.2",
     "grunt-contrib-copy": "~0.5.0",
     "grunt-contrib-compress": "~0.5.0",
-    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-clean": "~0.5.0",
     "grunt-contrib-concat": "~0.3.0"
   },
   "keywords": [
