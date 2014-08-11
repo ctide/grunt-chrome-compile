@@ -13,11 +13,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-compress');
   grunt.loadNpmTasks('grunt-contrib-concat');
 
-  grunt.registerTask('chrome-extension', 'Package a google chrome extension', function() {
+  grunt.registerMultiTask('chrome-extension', 'Package a google chrome extension', function() {
     grunt.config.requires('chrome-extension.options.name');
-    grunt.config.requires('chrome-extension.options.version');
-    grunt.config.requires('chrome-extension.options.id');
-    grunt.config.requires('chrome-extension.options.version');
     grunt.config.requires('chrome-extension.options.chrome');
 
     // Merge task-specific and/or target-specific options with these defaults.
