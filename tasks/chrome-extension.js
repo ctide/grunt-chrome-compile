@@ -13,7 +13,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-compress');
   grunt.loadNpmTasks('grunt-contrib-concat');
 
-  grunt.registerMultiTask('chrome-extension', 'Package a google chrome extension', function() {
+  grunt.registerTask('chrome-extension', 'Package a google chrome extension', function() {
     grunt.config.requires('chrome-extension.options.name');
     grunt.config.requires('chrome-extension.options.version');
     grunt.config.requires('chrome-extension.options.id');
